@@ -14,6 +14,36 @@ They are designed and deployed by the [International Interactive Computing Colla
 4. To use infrastructure that is designed by and for individuals in research and education.
 5. To support infrastructure from a non-profit organization that is committed to communities in research, education, and open source.
 
+(services/overview:what-we-provide)=
+## What will 2i2c provide?
+
+2i2c will operate and manage a 2i2c JupyterHub deployment for use by you and your community, accessible via a web URL. 2i2c will handle the design, configuration, development, and ongoing operation of the hub infrastructure.
+
+The following sections describe several common activities that the 2i2c team will perform as a part of your managed JupyterHub.
+
+### JupyterHub Setup
+
+* Requirement definitions and technical scoping
+* Architectural design
+* Initial deployment on cloud infrastructure
+
+### Ongoing development of hub infrastructure
+
+* Develop customizations needed for the hub deployment
+* Updates to the hub software environment
+* Upgrades and optimizations to 2i2c Hub infrastructure
+
+### Ongoing operation of hub infrastructure
+
+* Debug infrastructure issues, with expedited turnaround time for responses
+* Providing “escalation support” before / during / after the outages and downtime
+* Provide support to hub admins to facilitate their use of the infrastructure
+
+### Development of open source software that underlie the 2i2c Hubs
+
+* Improvements to the Jupyter ecosystem of tools and standards for interactive computing.
+* New features and bug fixes for the tools that are used in a 2i2c Hub
+
 (overview/right-to-replicate)=
 ## Your Right to replicate
 

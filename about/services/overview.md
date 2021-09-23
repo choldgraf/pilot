@@ -26,19 +26,6 @@ See [our strategy page](../strategy.md) for an overview of what we're hoping to 
 📦 data
 : The data that is used by your 2i2c JupyterHub is provided by you! 2i2c JupyterHubs can connect with a variety of public data sources. We recommend using standard data structures or specifications via libraries like [Intake](https://intake.readthedocs.io/en/latest/). Note that 2i2c does not host this data itself, but can build connections between 2i2c JupyterHubs and these data sources.
 
-(note-on-urls)=
-## Where are hubs accessed?
-
-By default all 2i2c JupyterHub get their own URL with the following form:
-
-```
-<hub-name>.<community-name>.2i2c.cloud
-```
-
-Each 2i2c JupyterHub has **hub name** (denoted by `<hub-name>`) and a **community name** (denoted by `<community-name>`). Communities are collections of hubs around a particular community or collaboration. Each community infrastructure may be run by different teams. For more information, see [](people-behind-hubs).
-
-It is also possible to provide your own URL that points to a 2i2c JupyterHub.
-
 ## Features of each hub
 
 Here is a brief overview of the major features that are present in each.
@@ -67,6 +54,27 @@ Here is a brief overview of the major features that are present in each.
         background-color: #f8f9fa;
     }
 </style>
+
+(note-on-urls)=
+## Where are hubs accessed?
+
+By default all 2i2c JupyterHub get their own URL with the following form:
+
+```
+<hub-name>.<community-name>.2i2c.cloud
+```
+
+Each 2i2c JupyterHub has **hub name** (denoted by `<hub-name>`) and a **community name** (denoted by `<community-name>`). Communities are collections of hubs around a particular community or collaboration. Each community infrastructure may be run by different teams. For more information, see [](people-behind-hubs).
+
+It is also possible to provide your own URL that points to a 2i2c JupyterHub.
+
+## Will 2i2c keep information about a hub's users?
+
+2i2c will not collect user data for any purpose. 2i2c will have access to all of the information that is inside a hub (which it requires in order to debug problems and and assist with upgrades), however we will not retain any of this data or move it *outside* of the hub, and will not retain it once the hub is shut down (except in order to transfer data to you at your request).
+
+## Data outside of the hub
+
+If you wish to access data that exists outside of your 2i2c Hub, it is your responsibility to put this data in the cloud and manage the infrastructure around it. 2i2c does not control this data, it merely provides access to it via your hub infrastructure.
 
 ## Where are hubs configured and deployed?
 

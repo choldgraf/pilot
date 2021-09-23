@@ -45,7 +45,10 @@ These sections describe the hub service at an organizational level.
 :maxdepth: 1
 :caption: About the Service
 overview
+pricing
+roles
 strategy
 roadmap
 2i2c
+terminology
 ```
